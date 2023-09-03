@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project websit number one</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: #002d68;
+        }
+
+        .container ul {
+            overflow: auto;
+            list-style: none;
+        }
+
+        .container li a {
+            color: rgb(255, 255, 255);
+            float: left;
+            text-decoration: none;
+            margin: 10px 20px;
+            padding: 5px 10px;
+            border-radius: 30px;
+        }
+
+        .container li a:hover {
+            color: rgb(255, 255, 255);
+            background-color: rgb(23, 19, 94);
+        }
+
+        .container input {
+            float: right;
+            margin-top: 20px;
+            margin-right: 100px;
+            width: 400px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        .box::before {
+            content: "";
+            position: absolute;
+            background: url('abc.webp') no-repeat center center/cover;
+            height: 80%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.98;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 150px;
+        }
+
+        .container2 h2 {
+            font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(12, 12, 92);
+        }
+
+        .container2 p {
+            font-size: medium;
+            color: aliceblue;
+        }
+
+        .container2 button {
+            color: white;
+            background-color: rgb(12, 12, 92);
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-right: 0px;
+            width: 215px;
+            border-radius: 10px;
+            animation-name: harry;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes harry {
+            from {
+                width: 15px;
+            }
+
+            to {
+                width: 215px;
+            }
+        }
+
+        .container3 {
+            margin-top: 250px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(28, 51, 87);
+            background-color: rgb(64, 64, 155);
+            color: aliceblue;
+        }
+
+        .container4 {
+            border: 2px solid turquoise;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <input type="text" name="search" placeholder="Search for items">
+
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="container2">
+            <h2>Welcome To Island and Enjoy your Life</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora necessitatibus iste harum, aut
+                laudantium magnam odio ratione! Laboriosam velit optio, <br> eligendi veritatis ad harum unde odit
+                recusandae saepe mollitia vel Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> hic numquam
+                dolores fugit fugiat, officiis reiciendis tempora mollitia exercitationem quasi reprehenderit dolorum
+                enim non minus..</p>
+            <button>Restered Now</button>
+        </div>
+
+    </section>
+    <section>
+        <div class="container3">
+            <h1>Our Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maxime laboriosam esse quae, obcaecati rem
+                pariatur animi quos. Iste quam repudiandae officia beatae ex dolore mollitia odit rem, explicabo
+                distinctio?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam omnis assumenda optio
+                consequatur, natus culpa quia veniam? Libero illo magni consectetur quam vitae sed! Facere dolores
+                maxime distinctio nobis error qui repudiandae reiciendis impedit.</p>
+        </div>
+    </section>
+    <section>
+        <div class="container4">
+            <h1>Contact Box</h1>
+            Name: <input class="pra" type="text" name="myname">
+            <br>
+            Place: <input class="pra" type="text" name="myname">
+            <br>
+            Contact No: <input class="pra" type="text" name="myname">
+            <br>
+            Password: <input class="pra" type="text" name="myname">
+        </div>
+
+    </section>
+
+</body>
+
+</html>
